@@ -1,0 +1,279 @@
+{
+  "main": {
+    "id": "3188fe19cf575903",
+    "type": "split",
+    "children": [
+      {
+        "id": "c138cc5d0932c45b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "56090d4af9eb9074",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Assembly/Data Movement.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Data Movement"
+            }
+          },
+          {
+            "id": "6009de1e5c93c0a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Assembly/Malloc vs Calloc vs Realloc.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Malloc vs Calloc vs Realloc"
+            }
+          },
+          {
+            "id": "b518cdba8dfb8b63",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Semester 2 Class/Software Security/Week 5. String Format LAB.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Week 5. String Format LAB"
+            }
+          },
+          {
+            "id": "40bd80774cbb6586",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.12"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.12"
+            }
+          },
+          {
+            "id": "dcd522119f9dcd1f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Semester 2 Class/Cryptography/Week 1. Pollev.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Week 1. Pollev"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1fc409e5909ba32a",
+    "type": "split",
+    "children": [
+      {
+        "id": "875f4fcad409c414",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "efc62333fe8e5762",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "7187b98563424f7c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "0413d8ded62de465",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 298.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "c35f20e8304b1756",
+    "type": "split",
+    "children": [
+      {
+        "id": "2a0a833d5ef3caf8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b6e87cf38dfc0186",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Semester 2 Class/Cryptography/Week 3. Applied.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Week 3. Applied"
+            }
+          },
+          {
+            "id": "50bccce266b5844e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "FileSystem.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from FileSystem"
+            }
+          },
+          {
+            "id": "af6a8d6fe3fe75ef",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "007b2103991cb50e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "FileSystem.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of FileSystem"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:New drawing": false
+    }
+  },
+  "active": "dcd522119f9dcd1f",
+  "lastOpenFiles": [
+    "README.md",
+    "Images/Pasted image 20250831172124.png",
+    "Images/Pasted image 20250831172029.png",
+    "Images/Pasted image 20250831171824.png",
+    "Semester 2 Class/Cryptography/Week 1. Applied.md",
+    "Semester 2 Class/Cryptography/Week 1. Pollev.md",
+    "Semester 2 Class/Cryptography/Week 1. Applied Answers.md",
+    "Assignment Notes.md",
+    "Images/Pasted image 20250829002533.png",
+    "Images/Pasted image 20250829002110.png",
+    "Images/Pasted image 20250828201131.png",
+    "Images/Pasted image 20250828201017.png",
+    "Semester 2 Class/Software Security/Week 5. String Format LAB.md",
+    "Notes.md",
+    "Semester 2 Class/Cryptography/Week 5. Applied.md",
+    "Semester 2 Class/Cryptography/Week 5. Asymetric encryption.md",
+    "Assembly/Syscall.md",
+    "Assembly/Malloc vs Calloc vs Realloc.md",
+    "Assembly/Conditional Branching.md",
+    "Assembly/Data Movement.md",
+    "Assembly/GDB.md",
+    "Assembly/Loops.md",
+    "Assembly/Stack.md",
+    "Cryptography/Cypher Attacks.md",
+    "Semester 2 Class/Software Security/Week 3. Buffer Overflow.md",
+    "Semester 2 Class/Software Security/Week 2. Introduction to C.md",
+    "Semester 2 Class/Software Security/Week 4. Format String Vulnerability, Exploit and Mitigation.md",
+    "Semester 2 Class/Cryptography/Week 3. Applied.md",
+    "Semester 2 Class/Cryptography/Week 3. Symmetric encryption.md",
+    "Images/Pasted image 20250828131322.png",
+    "Semester 2 Class/Cryptography/Untitled",
+    "Images/Pasted image 20250828115428.png",
+    "Images/Pasted image 20250828115354.png",
+    "Assembly/Assembly.md",
+    "Assembly/Arithmetic.md",
+    "Semester 2 Class/Cryptography/Week 1. Introduction.md",
+    "Semester 2 Class/Temp Notes/Problem.md",
+    "Untitled.canvas",
+    "Semester 2 Class/Temp Notes",
+    "Excalidraw",
+    "Cryptography/Substitution Cipher",
+    "Fundamentals/CPU Architecture",
+    "Images/FIT5163 Applied 1-2025 s2.docx.pdf",
+    "CPP",
+    "Semester 2 Class/Cryptography",
+    "Semester 2 Class",
+    "Cryptography"
+  ]
+}
