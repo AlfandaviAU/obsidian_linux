@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester 2 Class/Software Security/Answer.md",
+                "file": "Semester 2 Class/Software Security/FIT5003 Report.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Answer"
+              "title": "FIT5003 Report"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Assignment Notes.md",
+                "file": "Semester 2 Class/Software Security/Answer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Assignment Notes"
+              "title": "Answer"
             }
           }
         ]
@@ -92,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298.5,
-    "collapsed": true
+    "width": 298.5
   },
   "right": {
     "id": "c35f20e8304b1756",
@@ -187,30 +186,31 @@
   },
   "active": "6009de1e5c93c0a9",
   "lastOpenFiles": [
-    "Images/Pasted image 20250910142219.png",
+    "Images/Pasted image 20250910161610.png",
+    "Images/Pasted image 20250910161135.png",
+    "Images/Pasted image 20250910161051.png",
+    "Semester 2 Class/Software Security/Answer.md",
+    "Semester 2 Class/Software Security/FIT5003 Report.md",
+    "Images/Pasted image 20250910160654.png",
+    "Images/Pasted image 20250910160356.png",
+    "Images/Pasted image 20250910160201.png",
+    "Images/Pasted image 20250910143655.png",
+    "Images/Pasted image 20250910143611.png",
+    "Images/Pasted image 20250910143557.png",
     "Assignment Notes.md",
+    "Images/Pasted image 20250910142219.png",
     "Semester 2 Class/Software Security/Week 6. Applied.md",
     "Semester 2 Class/Cryptography/Week 6. Asymetric Crypto 2.md",
-    "Semester 2 Class/Software Security/Answer.md",
     "Semester 2 Class/Software Security/Assignment 1.md",
     "Images/Pasted image 20250908132328.png",
-    "Images/Pasted image 20250904182058.png",
     "Semester 2 Class/Software Security/Backups.md",
     "Assembly/Data Movement.md",
     "Assembly/Malloc vs Calloc vs Realloc.md",
-    "Images/Pasted image 20250901215505.png",
     "Semester 2 Class/Software Security/Week 3. Buffer Overflow.md",
     "Semester 2 Class/Software Security/Week 2. Introduction to C.md",
     "Semester 2 Class/Software Security/Week 1. Software Security.md",
     "Semester 2 Class/Software Security/Week 6. Web App Security.md",
-    "Images/Pasted image 20250901134113.png",
     "Cryptography/Modes of Operations.md",
-    "Images/Pasted image 20250901113735.png",
-    "Images/Pasted image 20250901113648.png",
-    "Images/Pasted image 20250901113647.png",
-    "Images/Pasted image 20250901113559.png",
-    "Images/Pasted image 20250901113323.png",
-    "Images/Pasted image 20250901113253.png",
     "Semester 2 Class/Cryptography/Week 3. Applied.md",
     "Semester 2 Class/Cryptography/Week 5. Applied.md",
     "Semester 2 Class/Cryptography/Week 3. Symmetric encryption.md",
@@ -222,7 +222,6 @@
     "Semester 2 Class/Cryptography/Week 1. Applied Answers.md",
     "Semester 2 Class/Cryptography/Week 1. Applied.md",
     "Semester 2 Class/Cryptography/Week 1. Pollev.md",
-    "README.md",
     "Semester 2 Class/Cryptography/Untitled",
     "Untitled.canvas",
     "Semester 2 Class/Temp Notes",
