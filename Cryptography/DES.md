@@ -33,3 +33,12 @@ we want to ensure the enc, and dec are symmetric (because in the begining we use
 
 #### DES Subkey Generation
 ![[Pasted image 20250831213520.png | 400]]
+![[Pasted image 20250901110155.png | 400]]
+
+
+#### DES Security
+- major issue : key length too small
+- we solve it by 3DES
+![[Pasted image 20250831213803.png | 400]]
+- we use des algo 3 times, and 3 different keys (EDE)
+- because backward compability, if older system cant do 3DES, we can just use ED use same key -> cancel out each other, and E for encrypt
